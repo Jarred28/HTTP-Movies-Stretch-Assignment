@@ -5,7 +5,7 @@ export default class SavedList extends Component {
     super(props);
   }
 
-  render() {
+  render() { 
     return (
       <div className="saved-list">
         <h3>Saved Movies:</h3>
