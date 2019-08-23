@@ -36,7 +36,7 @@ const movies = [{
     stars: ['Arnold Schwarzenegger', 'Edward Furlong', 'Linda Hamilton']
   },
   {
-    id: 4,
+    id: 4, 
     title: 'Dumb and Dumber',
     director: 'The Farely Brothers',
     metascore: 76,
@@ -56,7 +56,7 @@ let movieId = movies.length;
 app.get('/api/movies', (req, res) => {
   res.send(movies);
 });
-
+ 
 app.get('/api/movies/:id', (req, res) => {
   const movie = movies.filter(
     movie => movie.id.toString() === req.params.id

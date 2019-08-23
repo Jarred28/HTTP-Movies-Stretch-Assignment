@@ -22,7 +22,7 @@ export default class MovieList extends Component {
           <MovieDetails key={movie.id} movie={movie} />
         ))}
       </div>
-    );
+    ); 
   }
 }
 

@@ -6,7 +6,7 @@ export default class Movie extends React.Component {
     super(props);
     this.state = {
       movie: null
-    };
+    }; 
   }
 
   componentDidMount() {
